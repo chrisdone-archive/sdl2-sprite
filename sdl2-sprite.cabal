@@ -1,0 +1,36 @@
+name:                sdl2-sprite
+version:             0.1.0.0
+synopsis:            Sprite previewer/animator
+description:         View your sprites in an animated way with SDL2
+homepage:            https://github.com/chrisdone/sdl2-sprite#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Chris Done
+maintainer:          chrisdone@gmail.com
+copyright:           2015 Chris Done
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  ghc-options:         -Wall
+  exposed-modules:     SDL.Sprite
+  build-depends:       base >= 4.7 && < 5,
+                       sdl2
+                     , sdl2-image
+  default-language:    Haskell2010
+
+executable sdl2-sprite
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , sdl2-sprite
+                     , sdl2
+                     , sdl2-image
+                     , optparse-simple
+                     , text
+                     , split
+  default-language:    Haskell2010

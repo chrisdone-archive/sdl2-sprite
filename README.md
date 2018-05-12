@@ -45,7 +45,8 @@ in `app/Main.hs` of this repository for an example.
 ## How to make sprites in Inkscape
 
 Choose the size of your intended result e.g. 220x130 and then setup
-the grid in Inkscape to show that size:
+the grid in Inkscape to show that size (see the Spacing X/Spacing Y
+fields):
 
 ![](img/inkscape-doc-properties.png)
 

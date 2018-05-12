@@ -39,4 +39,4 @@ size is 130 so that the width scales right:
 
 ![](img/inkscape-export.png)
 
-Now you're good to go!
+Now you're good to go! Hit Export.

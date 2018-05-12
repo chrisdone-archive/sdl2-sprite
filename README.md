@@ -1,5 +1,10 @@
 # sdl2-sprite
 
+A Haskell library for rendering sprites and a commandline tool for
+previewing them
+
+## Commandline use
+
 Create a horizontal sprite like this:
 
 ![](img/blue-fish-sprite.png)

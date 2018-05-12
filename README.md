@@ -31,6 +31,9 @@ the right and hit Apply.
 
 ![](img/inkscape-transform.png)
 
+Make sure that your document dimensions are your width x your frame
+count.
+
 Finally, export your image with the right "Image size" - make sure the
 size is 130 so that the width scales right:
 

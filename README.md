@@ -15,7 +15,7 @@ The size of the intended result image is 220x130, so provide that:
 
 This will open a window animating that sprite:
 
-![](img/blue-fish.gif)
+![](img/blue-fish-12fps.gif)
 
 The animation repeats indefinitely at the desired framerate.
 

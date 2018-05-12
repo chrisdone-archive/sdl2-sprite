@@ -60,6 +60,7 @@ animate s =
   }
   where
     (V2 w _) = spriteDimensions s
+{-# INLINE animate #-}
 
 -- | Render the sprite at the given coordinates.
 render :: MonadIO m => Sprite -> V2 CInt -> m ()
@@ -69,3 +70,4 @@ render s xy =
     (spriteTexture s)
     (Just (spriteRectangle s))
     (Just (Rectangle (P xy) (spriteDimensions s)))
+{-# INLINE render #-}

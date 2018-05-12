@@ -17,9 +17,6 @@ This will open a window animating that sprite:
 
 ![](img/blue-fish.gif)
 
-(Note: this is a screenflow recording of the animation manually edited
-to repeat, so it's not as smooth as in reality.)
-
 The animation repeats indefinitely at the desired framerate.
 
 ## Using Haskell API

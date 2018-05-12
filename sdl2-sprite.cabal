@@ -1,5 +1,5 @@
 name:                sdl2-sprite
-version:             0.1.0.0
+version:             0.0.0
 synopsis:            Sprite previewer/animator
 description:         View your sprites in an animated way with SDL2
 homepage:            https://github.com/chrisdone/sdl2-sprite#readme

@@ -14,6 +14,31 @@ This will open a window animating that sprite:
 
 The animation repeats indefinitely at the desired framerate.
 
+## Using Haskell API
+
+Use `load` to load in a sprite for a `Renderer`:
+
+``` haskell
+load :: MonadIO m => Renderer -> FilePath -> V2 CInt -> m Sprite
+```
+
+To render the sprite at a given position use `render`:
+
+``` haskell
+render :: MonadIO m => Sprite -> V2 CInt -> m ()
+```
+
+To advance the sprite's frame to the next frame (or loop), use
+`animate`:
+
+``` haskell
+animate :: Sprite -> Sprite
+```
+
+This is a pure function, so you can use it in a loop. See the source
+in `app/Main.hs` of this repository for an example.
+
+
 ## How to make sprites in Inkscape
 
 Choose the size of your intended result e.g. 220x130 and then setup
